@@ -36,6 +36,8 @@ main{
     /* margin: auto; */
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.256);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 #login > div#img{
     background-image: url(../imagens/pexels-yoss-traore-2591198.jpg);
@@ -49,4 +51,11 @@ main{
     display: block;
     padding: 10px;
 
+}
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario > p {
+    font-size: 0.8em;
 }
