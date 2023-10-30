@@ -86,7 +86,7 @@ label {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    margin-top: -27px;
+    margin-top: 5px;
     background-color: rgba(4, 197, 4, 0.884);
     color: white;
     border: none;
@@ -134,8 +134,7 @@ label {
     border: none;
     border-radius: 8px;
     padding: 3px;
-    width: calc(100% - 44px);
-    transform: translate(40px, -38px);
+    transform: translate(-5px, -10px);
 }
 
 #isenha {
@@ -145,8 +144,7 @@ label {
     border: none;
     border-radius: 8px;
     padding: 3px;
-    width: calc(100% - 44px);
-    transform: translate(40px, -38px);
+    transform: translate(-5px, -10px);
 }
 
 #ilogin:focus-within {
