@@ -23,7 +23,7 @@
 
                 <form action="login.php" method="post">
                     <div class="campo">
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined" id="user">
                             person
                         </span>
 
@@ -31,17 +31,14 @@
 
                     </div>
                     <div class="campo">
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined" id="key">
                             vpn_key
                         </span>
                         <input type="password" name="senha" id="isenha" placeholder="Digite sua Senha" size="19%" autocomplete="current-password" required maxlength="20" minlength="8">
                         <label for="isenha">Senha</label>
-                        <input type="submit" value="Entrar">
+                        <input class="entrar" type="submit" value="Entrar">
 
-                        <a href="esqueci.html">Esqueci a Senha</a>
-                        <span class="material-symbols-outlined">
-                            mail
-                        </span>
+                        <a class="botao" href="esqueci.html">Esqueci a Senha</a>
                     </div>
 
 
