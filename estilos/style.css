@@ -71,7 +71,7 @@ main {
 
 .campo {
     background-color: #afaba5;
-    width: 100%;
+    width: 220px;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
@@ -134,7 +134,7 @@ label {
     border: none;
     border-radius: 8px;
     padding: 3px;
-    transform: translate(-5px, -10px);
+    transform: translate(37px, -39px);
 }
 
 #isenha {
@@ -144,7 +144,9 @@ label {
     border: none;
     border-radius: 8px;
     padding: 3px;
-    transform: translate(-5px, -10px);
+    transform: translate(37px, -39px);
+    
+    
 }
 
 #ilogin:focus-within {
